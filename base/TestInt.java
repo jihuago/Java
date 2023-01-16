@@ -12,8 +12,6 @@ public class TestInt {
      * @Author 梁芝
      * @Description TODO
      * @Date 下午6:42 2023/1/10
-     * @param args
-     *
      * @Return void
      */
     public static void main(String[] args) {
