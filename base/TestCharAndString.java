@@ -34,5 +34,22 @@ public class TestCharAndString {
         // 字符串不可变特性
         // Java 的字符串除了是一个引用类型外，还有个重要的特点，就是字符串不可变。
         // 字符串的不可变是指字符串内容不可变。
+        String testStr = "hello";
+        String changeStr = testStr;
+        testStr = "world";
+//        System.out.println(testStr);
+        System.out.println(changeStr);
+
+        exchangeToChar();
+    }
+
+    public static void exchangeToChar() {
+        int a = 72;
+        int b = 105;
+        int c = 65281;
+
+        String s = "" + (char) a + (char) b + (char) c;
+//        int s = (char) a + (char) b + (char) c;
+        System.out.println(s);
     }
 }
