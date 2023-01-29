@@ -14,6 +14,7 @@ public class Main {
                 new Salary(7500)
         };
 
+
         System.out.println(totalTax(incomes));
 
     }
